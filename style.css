@@ -1,14 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
+    display: flex;
     background-color: #63A6F4;
     color : #FFFFFF;
-    padding: 1em;
-    align-content: center;
+    padding: 20px;
     font-size: 25px;
  }
 
  a {
-    margin: 0 auto;
-    align-content: center;
+    margin: 0 45px;
     text-decoration: none;
   }
   
@@ -29,12 +33,12 @@ nav {
   }
 
  #Index {
-     padding-left: 3em;
+     
      font-size: 20px;
  }
 
  #Categories {
-    padding-left: 3em;
+    
     font-size: 20px;
 }
 
@@ -99,3 +103,4 @@ p {
     bottom: -1em;
     text-align: center;
 }
+
